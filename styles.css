@@ -1,0 +1,21 @@
+body{
+    background-color: #fffa;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h1,h3 {
+    text-align: center;
+}
+
+img{
+    margin-left: 20px;
+    margin-top: auto;
+    align-items:start
+}
+
+button {
+    display: block;
+    justify-content: center;
+    background-color: #c48d3f;
+    color: #fff
+}
