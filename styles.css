@@ -10,12 +10,20 @@ h1,h3 {
 img{
     margin-left: 20px;
     margin-top: auto;
-    align-items:start
+    align-items:start;
 }
 
 button {
-    display: block;
     justify-content: center;
     background-color: #c48d3f;
-    color: #fff
+    color: #fff;
+}
+
+.button-container, .image-container {
+    text-align: center;
+}
+
+div {
+    justify-content: center;
+    text-align: center;
 }
