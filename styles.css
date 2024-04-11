@@ -1,6 +1,13 @@
 body{
-    background-color: #fffa;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.background-image {
+    background-image: url('./assets/img/wp7185789-animal-crossing-desktop-wallpapers.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: rgba(255, 255, 255, 0.8); /* Adjust transparency by changing the last value */
 }
 
 h1,h3 {
@@ -19,11 +26,23 @@ button {
     color: #fff;
 }
 
-.button-container, .image-container {
+.button-container {
     text-align: center;
 }
 
 div {
     justify-content: center;
     text-align: center;
+}
+
+footer {
+    padding: 100px auto;
+}
+@font-face {
+    font-family: 'MiFuente';
+    src: url('./assets/img/FinkHeavy.ttf') format('woff2'),
+}
+
+* {
+    font-family: 'MiFuente';
 }
